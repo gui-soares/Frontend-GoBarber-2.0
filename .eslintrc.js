@@ -35,7 +35,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'no-param-reassign': 'off',
     'no-console': ['error', { allow: [ 'tron']}],
-    'no-usused-vars': [ 'error', { argsIgnorePattern: '^_'}],
+    'no-unused-vars': [ 'error', { argsIgnorePattern: '^_'}],
     'global-require': 'off',
     'no-urderscore-dangle': 'off',
     camelcase: 'off',
